@@ -6,4 +6,4 @@ def get_avg_currency_rate(rates_history: ___) -> ___:
 
 
 if __name__ == "__main__":
-    get_avg_currency_rate(rates_history=[30.2, 31.6, 29.0])
+    assert get_avg_currency_rate(rates_history=[30.2, 31.6, 29.0]) == 30.3
