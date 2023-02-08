@@ -6,4 +6,4 @@ def is_adult(age: ___, country_name: ___) -> ___:
 
 
 if __name__ == "__main__":
-    is_adult(age=17, country_name="Russia")
+    assert is_adult(age=17, country_name="Russia") is True

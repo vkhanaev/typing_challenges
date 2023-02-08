@@ -8,7 +8,7 @@ def stringify(value: ___) -> ___:
 
 
 if __name__ == "__main__":
-    stringify(value="12")
-    stringify(value=15)
-    stringify(value=.5)
-    stringify(value=None)
+    assert stringify(value="12") == "12"
+    assert stringify(value=15) == "15"
+    assert stringify(value=.5) == "0.5"
+    assert stringify(value=None) == "None"

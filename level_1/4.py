@@ -8,4 +8,4 @@ def calculate_age(date_of_birth: ___) -> ___:
 
 
 if __name__ == "__main__":
-    calculate_age(date_of_birth=datetime.date(1965, 6, 2))
+    assert calculate_age(date_of_birth=datetime.date(1965, 6, 2)) == 57

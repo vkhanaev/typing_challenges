@@ -6,5 +6,5 @@ def is_loan_amount_too_big(loan_amount_usd: ___, max_loan_amount_for_user_usd: _
 
 
 if __name__ == "__main__":
-    is_loan_amount_too_big(loan_amount_usd=1000, max_loan_amount_for_user_usd=4000)
-    is_loan_amount_too_big(loan_amount_usd=1000, max_loan_amount_for_user_usd=None)
+    assert is_loan_amount_too_big(loan_amount_usd=1000, max_loan_amount_for_user_usd=4000) is False
+    assert is_loan_amount_too_big(loan_amount_usd=1000, max_loan_amount_for_user_usd=None) is False

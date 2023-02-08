@@ -6,5 +6,5 @@ def compose_full_name(first_name: ___, last_name: ___, middle_name: ___) -> ___:
 
 
 if __name__ == "__main__":
-    compose_full_name(first_name="John", last_name="Doe", middle_name=None)
-    compose_full_name(first_name="Ilya", last_name="Lebedev", middle_name="Alexeyevich")
+    assert compose_full_name(first_name="John", last_name="Doe", middle_name=None) == "Doe John"
+    assert compose_full_name(first_name="Ilya", last_name="Lebedev", middle_name="Alexeyevich") == "Lebedev Ilya Alexeyevich"

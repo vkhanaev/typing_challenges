@@ -8,6 +8,6 @@ def is_correct_int(raw_int: ___) -> ___:
 
 
 if __name__ == "__main__":
-    is_correct_int(raw_int="12")
-    is_correct_int(raw_int="12&")
-    is_correct_int(raw_int=None)
+    assert is_correct_int(raw_int="12") is True
+    assert is_correct_int(raw_int="12&") is False
+    assert is_correct_int(raw_int=None) is False

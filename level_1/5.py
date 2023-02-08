@@ -6,4 +6,4 @@ def is_correct_email(raw_email: ___) -> ___:
 
 
 if __name__ == "__main__":
-    is_correct_email(raw_email="test@gmail.co")
+    assert is_correct_email(raw_email="test@gmail.co") is False

@@ -6,4 +6,4 @@ def is_user_banned(user_id: ___) -> ___:
 
 
 if __name__ == "__main__":
-    is_user_banned(user_id=32)
+    assert is_user_banned(user_id=32) is True
