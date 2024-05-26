@@ -3,7 +3,7 @@ import typing
 from constants import ___
 
 
-def is_name_male(name: str, name_gender_map: typing.Mapping[str, bool]) -> bool:
+def is_name_male(name: str, name_gender_map: typing.Mapping[str, bool]) -> bool | None:
     pass
 
 
