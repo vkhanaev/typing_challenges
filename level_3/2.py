@@ -4,7 +4,7 @@ from constants import ___
 
 
 class User(typing.TypedDict):
-    name: int
+    name: str
     age: int
     transactions_sums: list[int]
 
